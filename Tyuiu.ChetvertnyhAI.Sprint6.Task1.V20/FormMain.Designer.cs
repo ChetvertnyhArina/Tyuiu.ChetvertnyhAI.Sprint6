@@ -62,6 +62,7 @@
             textBoxTaskU_CAI.Location = new Point(6, 26);
             textBoxTaskU_CAI.Multiline = true;
             textBoxTaskU_CAI.Name = "textBoxTaskU_CAI";
+            textBoxTaskU_CAI.ReadOnly = true;
             textBoxTaskU_CAI.Size = new Size(433, 61);
             textBoxTaskU_CAI.TabIndex = 0;
             textBoxTaskU_CAI.Text = "Протабулировать функцию на заданном диапазоне.\r\nРезультат вывести в виде таблицы.";

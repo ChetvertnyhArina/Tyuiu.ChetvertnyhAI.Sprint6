@@ -70,7 +70,8 @@
             textBoxTask_CAI.Location = new Point(6, 26);
             textBoxTask_CAI.Multiline = true;
             textBoxTask_CAI.Name = "textBoxTask_CAI";
-            textBoxTask_CAI.Size = new Size(579, 85);
+            textBoxTask_CAI.ReadOnly = true;
+            textBoxTask_CAI.Size = new Size(529, 85);
             textBoxTask_CAI.TabIndex = 0;
             textBoxTask_CAI.Text = "Протабулировать функцию на заданном диапазоне.\r\nРезультат вывести в DataGridView и построить график функции.";
             // 
@@ -200,6 +201,7 @@
             // buttonHelp_CAI
             // 
             buttonHelp_CAI.BackColor = Color.BlanchedAlmond;
+            buttonHelp_CAI.FlatStyle = FlatStyle.Flat;
             buttonHelp_CAI.Location = new Point(346, 323);
             buttonHelp_CAI.Name = "buttonHelp_CAI";
             buttonHelp_CAI.Size = new Size(122, 62);
