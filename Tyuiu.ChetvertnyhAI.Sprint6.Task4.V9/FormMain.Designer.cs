@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
             panelTop_CAI = new Panel();
             buttonHelp_CAI = new Button();
             buttonSave_CAI = new Button();
@@ -178,7 +178,7 @@
             panelLeft_CAI.Location = new Point(0, 108);
             panelLeft_CAI.Name = "panelLeft_CAI";
             panelLeft_CAI.Padding = new Padding(5);
-            panelLeft_CAI.Size = new Size(244, 498);
+            panelLeft_CAI.Size = new Size(264, 498);
             panelLeft_CAI.TabIndex = 1;
             // 
             // groupBoxResult_CAI
@@ -187,7 +187,7 @@
             groupBoxResult_CAI.Dock = DockStyle.Fill;
             groupBoxResult_CAI.Location = new Point(5, 5);
             groupBoxResult_CAI.Name = "groupBoxResult_CAI";
-            groupBoxResult_CAI.Size = new Size(234, 488);
+            groupBoxResult_CAI.Size = new Size(254, 488);
             groupBoxResult_CAI.TabIndex = 1;
             groupBoxResult_CAI.TabStop = false;
             groupBoxResult_CAI.Text = "Вывод";
@@ -199,7 +199,7 @@
             textBoxResult_CAI.Multiline = true;
             textBoxResult_CAI.Name = "textBoxResult_CAI";
             textBoxResult_CAI.ScrollBars = ScrollBars.Vertical;
-            textBoxResult_CAI.Size = new Size(228, 462);
+            textBoxResult_CAI.Size = new Size(248, 462);
             textBoxResult_CAI.TabIndex = 1;
             // 
             // panelRight_CAI
@@ -207,32 +207,32 @@
             panelRight_CAI.Controls.Add(chartFunction_CAI);
             panelRight_CAI.Controls.Add(splitter1);
             panelRight_CAI.Dock = DockStyle.Fill;
-            panelRight_CAI.Location = new Point(244, 108);
+            panelRight_CAI.Location = new Point(264, 108);
             panelRight_CAI.Name = "panelRight_CAI";
-            panelRight_CAI.Size = new Size(1020, 498);
+            panelRight_CAI.Size = new Size(1000, 498);
             panelRight_CAI.TabIndex = 2;
             // 
             // chartFunction_CAI
             // 
-            chartArea1.Name = "ChartArea1";
-            chartFunction_CAI.ChartAreas.Add(chartArea1);
+            chartArea2.Name = "ChartArea1";
+            chartFunction_CAI.ChartAreas.Add(chartArea2);
             chartFunction_CAI.Dock = DockStyle.Fill;
-            legend1.Name = "Legend1";
-            chartFunction_CAI.Legends.Add(legend1);
+            legend2.Name = "Legend1";
+            chartFunction_CAI.Legends.Add(legend2);
             chartFunction_CAI.Location = new Point(4, 0);
             chartFunction_CAI.Name = "chartFunction_CAI";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.IsVisibleInLegend = false;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            chartFunction_CAI.Series.Add(series1);
-            chartFunction_CAI.Size = new Size(1016, 498);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.IsVisibleInLegend = false;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            chartFunction_CAI.Series.Add(series2);
+            chartFunction_CAI.Size = new Size(996, 498);
             chartFunction_CAI.TabIndex = 1;
             chartFunction_CAI.Text = "chart1";
-            title1.Name = "Function";
-            title1.Text = "График функции";
-            chartFunction_CAI.Titles.Add(title1);
+            title2.Name = "Function";
+            title2.Text = "График функции";
+            chartFunction_CAI.Titles.Add(title2);
             // 
             // splitter1
             // 

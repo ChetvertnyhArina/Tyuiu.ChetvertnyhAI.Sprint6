@@ -71,6 +71,5 @@ namespace Tyuiu.ChetvertnyhAI.Sprint6.Task4.V9
         {
             MessageBox.Show("Таск 4 выполнила студентка группы ИСТНб-25-1 Четвертных Арина Игоревна", "Сообщение", MessageBoxButtons.OK);
         }
-
     }
 }
